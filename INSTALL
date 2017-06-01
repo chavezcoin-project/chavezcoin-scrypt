@@ -1,0 +1,9 @@
+Building Chavezcoin
+
+See doc/readme-qt.rst for instructions on building Chavezcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Chavezcoin.
+
+See doc/build-*.txt for instructions on building chavezcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Chavezcoin.
