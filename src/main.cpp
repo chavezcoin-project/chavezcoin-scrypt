@@ -1096,7 +1096,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 }
 
 static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // 1 day to set difficulty
-static const int64 nTargetSpacing = 1; // Chavezcoin: Generate 1m coins per second, this is for premine
+static const int64 nTargetSpacing = 1 * 60; // Chavezcoin: Generate 1m coins per minute, this is for premine
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
