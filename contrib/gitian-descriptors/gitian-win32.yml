@@ -31,7 +31,7 @@ script: |
   cd $HOME/build/
   #
   unzip chavezcoin.zip
-  cp -r $OUTDIR/src
+  cp -r chavezcoin $OUTDIR/src
   cp -r litecoin nsis
   cd chavezcoin
   export PATH=$STAGING/host/bin:$PATH
