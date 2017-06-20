@@ -32,7 +32,7 @@ script: |
   #
   unzip chavezcoin.zip
   cp -r chavezcoin $OUTDIR/src
-  cp -r litecoin nsis
+  cp -r chavezcoin nsis
   cd chavezcoin
   export PATH=$STAGING/host/bin:$PATH
   cp $OUTDIR/src/doc/README_windows.txt $OUTDIR/readme.txt
